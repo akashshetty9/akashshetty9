@@ -1,0 +1,56 @@
+<div class="main" id="a1">
+        <nav>
+            <div class="logo">
+                <img src="logo.jpg">
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="#">menu</a></li>
+                    <li><a href="#">like</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="info"> 
+            <img src="main.jpg" class="mm">
+            <div id="cri">
+                <h3 class="mm">akash</h3>
+                <div class="item one">
+                    <img src="sukka.jpg">
+                    <div>
+                        <h3 href="https://www.thespruceeats.com/chicken-sukka-dry-chicken-curry-1957365">chicken sukka</h3>
+                    </div>
+                </div>
+                <div class="item two">
+                    <img src="ghee.jpg">
+                    <div>
+                        <h3 href="https://www.myfoodtales.com/chicken-ghee-roast-recipe/">chicken ghee roast</h3>
+                    </div>
+                </div>
+                <div class="item three">
+                    <img src="lool.jpg">
+                    <div>
+                        <h3 href="https://presscs.com/chicken-65-recipe/">chicken 65</h3>
+                    </div>
+                </div>
+                <div class="item four">
+                    <img src="tika.jpg">
+                    <div>
+                        <h3 href="https://spicecravings.com/chicken-tikka-recipe">chicken tikka</h3>
+                    </div>
+                </div>
+                <div class="item five">
+                    <img src="brinay.jpg">
+                    <div>
+                        <h3 href="https://punampaul.com/mughlai-chicken-biryani/">chicken biryani</h3>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <dvi class="controls">
+            <img src="up.png" id="up">
+            <h3>ITEMS</h3>
+            <img src="up.png" id="down">
+        </dvi>
+
+    </div>

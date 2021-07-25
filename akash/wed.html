@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Website design </title>
+    <link rel="stylesheet" href="./sdfg.css">
+</head>
+<body>
+    <div class="main" id="a1">
+        <nav>
+            <div class="logo">
+                <img src="logo.jpg">
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="menu.html">menu</a></li>
+                    <li><a href="like.html">like</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="info"> 
+            <div class="dontshow"></div>
+            <div id="cri">           
+                <div class="item one">
+                    .<a href="https://www.thespruceeats.com/chicken-sukka-dry-chicken-curry-1957365"><img src="sukka.jpg"></a>
+                    <h3 >chicken sukka</h3>
+                </div>
+                <div class="item two">
+                    <a href="https://www.myfoodtales.com/chicken-ghee-roast-recipe/"><img src="ghee.jpg"></a>
+                    <h3 >chicken ghee roast</h3>
+                </div>
+                <div class="item three">
+                    <a href="https://presscs.com/chicken-65-recipe/"><img src="lool.jpg"></a>
+                    <h3 >chicken 65</h3>
+                </div>
+                <div class="item four">    
+                    <a href="https://spicecravings.com/chicken-tikka-recipe"><img src="tika.jpg"></a>
+                    <h3 >chicken tikka</h3>
+                </div>
+            </div>
+                        <img src="main.jpg" class="mm">
+231`    
+            <img src="white.jpg" class="a1">
+            <img src="white.jpg" class="a2">
+            <img src="white.jpg" class="a3">
+        </div> 
+        <dvi class="controls">
+            <img src="up.png" id="up">
+            <h3>ITEMS</h3>
+            <img src="up.png" id="down">
+        </dvi>
+    </div>
+
+    <script>
+        var cricle = document.getElementById("cri");
+        var up = document.getElementById("up");
+        var down = document.getElementById("down");
+
+        var rotatevalue = cricle.style.transform;
+        var rotatesum;
+
+        up.onclick = function(){
+            rotatesum = rotatevalue + "rotate(-90deg)";
+            cricle.style.transform=rotatesum;
+            rotatevalue = rotatesum;
+        }
+        down.onclick = function(){
+            rotatesum = rotatevalue + "rotate(90deg)";
+            cricle.style.transform=rotatesum;
+            rotatevalue = rotatesum;
+        }
+    </script>
+    
+
+</body>
+</html>

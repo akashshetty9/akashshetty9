@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Website design</title>
+    <link rel="stylesheet" href="./sdfg.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main" id="a1">
+      <nav>
+        <div class="logo">
+          <img src="logo.jpg" />
+        </div>
+        <div class="nav-link">
+          <ul>
+            <li><a href="menu.html">menu</a></li>
+            <li><a href="#">like</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1 style="text-align: center">PLEASE RATE THE RECIPR</h1>
+      <div class="aj1">
+        <span class="aj" onclick="popupToggle();"
+          ><h4>1 . Amritsari Chicken Masala .</h4></span
+        >
+        <span class="aj" onclick="popupToggle();"
+          ><h4>2 . Murg Malaiwala</h4></span
+        >
+        <span class="aj" onclick="popupToggle();"
+          ><h4>3 . Kerala Chicken Roast</h4></span
+        >
+        <span class="aj" onclick="popupToggle();"
+          ><h4>4 . Chicken Chettinad</h4></span
+        >
+        <span class="aj" onclick="popupToggle();"
+          ><h4>5 . Spicy Tangy Kadhai Chicken</h4></span
+        >
+        <span class="aj" onclick="popupToggle();"
+          ><h4>6 . Chana Aur Khatte Pyaaz Ka Murgh</h4></span
+        >
+        <span class="aj" onclick="popupToggle();"
+          ><h4>7 . Butter Chicken</h4></span
+        >
+        <span class="aj" onclick="popupToggle();"
+          ><h4>8 . Chicken Curry</h4></span
+        >
+        <span class="aj" onclick="popupToggle();"
+          ><h4>9 . chicken soup</h4></span
+        >
+      </div>
+      <div id="popup">
+        <div class="contents">
+          <div class="input">
+            <input type="text" placeholder="ITEM NAME" />
+          </div>
+          <div class="input">
+            <input type="text" placeholder="RATING" />
+          </div>
+          <div class="aq">
+            <input type="submit" value="close" onclick="popupToggle();" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function popupToggle() {
+        const popup = document.getElementById("popup");
+        popup.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
